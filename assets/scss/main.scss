@@ -1,0 +1,19 @@
+@import './utils/variables';
+@import './utils/mixins';
+
+@import './base/base';
+@import './base/typography';
+@import './base/animations';
+
+@import './components/navigation';
+@import './components/buttons';
+
+
+@import './layout/header';
+@import './layout/section';
+
+@import './pages/start';
+@import './pages/clinic';
+@import './pages/team';
+@import './pages/pricing';
+@import './pages/blog';

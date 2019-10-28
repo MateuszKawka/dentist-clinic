@@ -1,0 +1,10 @@
+.list-enter-active {
+  transition: transform .4s ease-in-out;
+}
+.list-leave-active {
+  transition: transform .4s ease-in-out;
+}
+.list-enter, .list-leave-to
+{
+  transform: translateY(-100%);
+}

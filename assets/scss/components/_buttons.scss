@@ -1,0 +1,11 @@
+.button {
+  min-width: 112px;
+  height: 36px;
+  background: $primary;
+  color: $light;
+  border: none;
+  font-weight: $font-weight-medium;
+  margin: 1rem 0;
+  padding: 0 1.5rem;
+  border-radius: $border-radius;
+}

@@ -1,0 +1,3 @@
+@mixin default-transition($element) {
+  transition: .35s $element ease-in-out;
+}

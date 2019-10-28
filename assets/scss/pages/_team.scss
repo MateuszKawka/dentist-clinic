@@ -1,0 +1,25 @@
+.team-member {
+  width: 90%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.team-member__image {
+  width: 75%;
+  border-radius: $border-radius;
+}
+
+.team-member__about {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.team-member__name {
+  text-align: center;
+  font-size: $font-size-large;
+  font-weight: $font-weight-medium;
+  color: $primary;
+  margin-top: 1rem;
+}

@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  height: auto;
+  background: $light;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.header__logo {
+  color: $primary;
+  font-size: $font-size-large;
+  font-weight: $font-weight-medium
+}
+
+.header__button {
+  position: relative;
+  z-index: 2;
+}
