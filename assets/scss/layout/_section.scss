@@ -10,8 +10,14 @@
 }
 
 .section__title {
-  font-size: $font-size-jumbo;
+  width: 100%;
+  text-align: center;
+  font-size: $font-size-large;
   font-weight: $font-weight-medium;
   color: $primary;
   margin: 3rem 0;
+
+  @include md {
+   font-size: $font-size-jumbo;
+  }
 }

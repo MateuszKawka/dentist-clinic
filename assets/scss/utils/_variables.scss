@@ -1,9 +1,8 @@
-$important: #ff2d49;
-$light: #FDFFFC;
-$dark: #2C363F;
-$primary: #FF6900;
+$light: #fff;
+$dark: #172B4D;
+$primary: #EE4623;
 $details: #CACF85;
-$light-gray: #EEEEEE;
+$light-gray: #E9E8E8;
 
 // typo
 
@@ -17,8 +16,15 @@ $font-size-medium: 1.6rem;
 $font-size-large: 2rem;
 $font-size-jumbo: 2.8rem;
 
-$font-family: 'Roboto', sans-serif;
-
+$font-family: 'Open Sans', sans-serif;
+$box-shadow: 0 0px 0px rgba(0,0,0,0.19), 0 0px 2px rgba(0,0,0,0.23);
 $border-radius: 16px;
 // breakpoints
 
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;

@@ -4,6 +4,7 @@
     <BlogItem />
     <BlogItem />
     <BlogItem />
+    <BlogItem />
     <button class="button" type="button">Check out our blog</button>
   </section>
 </template>

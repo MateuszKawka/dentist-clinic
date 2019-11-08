@@ -1,0 +1,15 @@
+.footer {
+  width: 100%;
+  height: 164px;
+  margin-top: 4rem;
+  background: $dark;
+  padding: 1rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.address, .footer__text {
+  color: $light;
+  font-size: $font-size-small;
+}

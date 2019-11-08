@@ -13,8 +13,11 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap&subset=latin-ext'}
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap&subset=latin-ext' }
     ]
+  },
+  router: {
+    base: '/dentist-clinic/'
   },
   /*
   ** Customize the progress-bar color
@@ -30,6 +33,15 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    {
+      src: '~/plugins/vue-parallax',
+      mode: 'client'
+    },
+    '~plugins/vue-scrollto.js',
+    {
+      src: '~plugins/vue-datepicker.js',
+      mode: 'client'
+    }
   ],
   /*
   ** Nuxt.js dev-modules

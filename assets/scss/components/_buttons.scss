@@ -8,4 +8,22 @@
   margin: 1rem 0;
   padding: 0 1.5rem;
   border-radius: $border-radius;
+  font-family: $font-family;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: $font-size-small;
+
+
+  &:hover {
+    background: $primary;
+    color:$light;
+  }
+}
+
+.button--hide {
+  visibility: hidden
 }

@@ -11,7 +11,10 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "vue-parallaxy": "^1.1.1",
+    "vue-scrollto": "^2.17.1",
+    "vue2-datepicker": "^2.13.3"
   },
   "devDependencies": {
     "@nuxtjs/style-resources": "^1.0.0",

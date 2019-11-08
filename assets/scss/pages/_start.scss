@@ -1,5 +1,48 @@
 .start {
-  background: url('~assets/images/smile.jpg') center no-repeat;
+  background: url('~assets/images/head.png') center no-repeat;
   background-size: cover;
   height: 100vh;
+
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+
+  @include xl {
+    align-items: flex-end;
+  }
+
 }
+.entry-text {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;  
+  flex-wrap: wrap;
+  margin-top: 30%;
+
+  @include md {
+    flex-flow: column wrap;
+    align-items: center;
+  }
+
+  @include xl {
+    align-items: flex-end;
+  }
+
+}
+
+.start__title {
+  font-size: $font-size-large;
+  color: $light;
+  padding: 1rem 4rem;
+}
+
+.start__subtitle{
+  font-size: $font-size-large;
+  color: $light;
+  padding: 1rem 4rem;
+}
+
+// 992px window width and more
+

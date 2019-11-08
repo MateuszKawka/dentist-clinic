@@ -27,7 +27,7 @@
   font-size: $font-size-small;
   justify-content: space-between;
   margin: 1rem 0;
-  padding: 1rem 0;
+  padding: 1rem 1rem;
   color: $dark;
 }
 
@@ -38,6 +38,6 @@
 .pricing__price {
   width: auto;
   margin-left: 3rem;
-  color: $important;
+  color: $primary;
   text-align: right;
 }

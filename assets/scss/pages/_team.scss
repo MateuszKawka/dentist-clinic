@@ -1,13 +1,26 @@
+.team {
+  @include md {
+    flex-flow: initial;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
 .team-member {
   width: 90%;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
+  margin-top: 2rem;
+
+  @include md {
+    width: 40%;
+  }
 }
 
 .team-member__image {
   width: 75%;
-  border-radius: $border-radius;
+  box-shadow: $box-shadow;
 }
 
 .team-member__about {
@@ -20,6 +33,21 @@
   text-align: center;
   font-size: $font-size-large;
   font-weight: $font-weight-medium;
-  color: $primary;
-  margin-top: 1rem;
+
+  margin-top: 2rem;
+}
+
+.team-social {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.team-social__icon {
+  width: 18px;
+  height: 18px;
+  fill: $dark;
+  margin: 0 1rem;
 }

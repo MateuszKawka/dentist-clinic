@@ -1,4 +1,20 @@
+.clinic {
+  flex-flow: initial;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .clinic__photo {
   width: 75%;
   height: auto;
+
+  @include md {
+    width: 40%;
+  }
+}
+
+.paragraph--clinic {
+  @include md {
+    width: 40%;
+  }
 }
